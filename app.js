@@ -2,7 +2,7 @@ const mainElement = document.querySelector('main');
 const cards = document.querySelector("#cards");
 const winningElement = document.querySelector("#winning");
 const scoreElement = document.querySelector("#score");
-const totalEmojiPairs = 6;
+const totalEmojiPairs = 9;
 let score = 0;
 const emojis = [
   "📸",
@@ -24,6 +24,9 @@ const emojis = [
   "🎄",
   "🎨",
   "👑",
+  "💃",
+  "🎂",
+  "🎁"
 ];
 
 const GetInitialEmojis = () => {
